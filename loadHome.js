@@ -6,7 +6,7 @@ export default function loadHome(){
 
 
     const pizza = document.createElement("div");
-    pizza.textContent = "Now serving KK pizza";
+    pizza.textContent = "Now serving KK pizza!!!";
     pizza.classList.add("pizza_announcement")
 
     content.append(header);
