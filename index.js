@@ -1,5 +1,6 @@
 import loadHome from './loadHome.js';
 import loadContact from './loadContact.js';
+import loadMenu from './loadMenu.js';
 
 document.addEventListener("DOMContentLoaded", () => {
     loadHome();
@@ -8,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function navigation () {
     const contactBtn = document.querySelector("#contactPage");
     const homeBtn = document.querySelector("#homePage");
+    const menuBtn = document.querySelector("#menuPage");
 
     contactBtn.addEventListener("click", () => {
     loadContact();
@@ -15,7 +17,11 @@ function navigation () {
 
     homeBtn.addEventListener("click", () => {
         loadHome();
-        });
+    });
+
+    menuBtn.addEventListener("click", () => {
+        loadMenu();
+    });
 }
 
 navigation();
