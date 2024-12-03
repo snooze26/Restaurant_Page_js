@@ -1,6 +1,7 @@
 export default function loadContact(){
     const content = document.querySelector("#content");
-    
+    content.textContent = "";
+
     const header = document.createElement("h1");
     header.textContent = "Reach out to US!";
 

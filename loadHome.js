@@ -1,5 +1,7 @@
 export default function loadHome(){
     const content = document.querySelector("#content");
+    content.textContent = "";
+
     
     const header = document.createElement("h1");
     header.textContent = "Come eat at the Krusty Krab!";
