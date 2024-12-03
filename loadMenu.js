@@ -3,11 +3,11 @@ export default function loadMenu(){
     content.textContent = "";
 
     const header = document.createElement("h1");
-    header.textContent = "Reach out to US!";
+    header.textContent = "Leave full and satisfied with our delicous choice:";
 
 
     const info = document.createElement("div");
-    info.textContent = "Call: 999-999-9999 | Email: kkpatties@gmail.com"
+    info.textContent = "Krabby Patty"
     info.classList.add("contact_Info");
 
     content.append(header);
